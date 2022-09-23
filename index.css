@@ -1,0 +1,29 @@
+html, 
+body {
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  margin: 10px;
+  width: 150px;
+  border: 1px solid #d1d1d1;
+}
+
+.modal-dialog {
+  margin-top: 250px;
+}
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fund-me-input {
+  display: inline;
+  width: 220px;
+}

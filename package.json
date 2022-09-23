@@ -1,0 +1,11 @@
+{
+  "name": "html-fund-me-fcc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@metamask/providers": "^9.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Fund Me App</title>
+  </head>
+  <body>
+    <h1>Hello from fund me app!</h1>
+
+    <div id="alertModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p>Install Metamask</p>
+          </div>
+          <button
+            id="closeAlertModal"
+            type="button"
+            class="btn btn-secondary"
+            data-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <ul>
+      <li>
+        <button id="connectAccount" type="button" class="btn">Connect</button>
+      </li>
+      <li>
+        <button id="getBalance" type="button" class="btn">Get balance</button>
+      </li>
+      <li>
+        <button id="withdraw" type="button" class="btn">Withdraw</button>
+      </li>
+      <li>
+        <button id="fund" type="button" class="btn">Fund me</button>
+        <input
+          id="ETHAmount"
+          type="text"
+          class="form-control fund-me-input"
+          placeholder="ETH Amount: 0.1"
+        />
+      </li>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <script src="./dist/dom.js" type="module"></script>
+    <script src="./dist/index.js" type="module"></script>
+  </body>
+</html>
